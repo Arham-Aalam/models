@@ -41,6 +41,12 @@ Example usage:
         --input_config_path=train_input_config.pbtxt
 """
 
+####################################################################
+# Edit the path if you are not using colab
+import sys
+sys.path.append('/content/models/research/slim')
+#######################################################################
+
 import functools
 import json
 import os

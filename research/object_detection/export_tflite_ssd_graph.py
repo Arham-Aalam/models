@@ -91,6 +91,13 @@ python object_detection/export_tflite_ssd_graph \
        "
 """
 
+################################################################################################
+######### Edit these paths according to your system folder structure #####################################
+import sys
+sys.path.insert(0,"D:\\freelance\\vincent-local\\models\\research")
+sys.path.insert(0,"D:\\freelance\\vincent-local\\models\\research\\slim")
+################################################################################################
+
 import tensorflow as tf
 from google.protobuf import text_format
 from object_detection import export_tflite_ssd_graph_lib
